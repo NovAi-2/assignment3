@@ -1,0 +1,21 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; line-height: 1.5; color: #222; }
+main { max-width: 900px; margin: 0 auto; }
+
+/* Mobile first (default): up to 767px */
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+p  { font-size: 14px; }
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 26px; }
+  p  { font-size: 18px; }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+  h1 { font-size: 52px; }
+  h2 { font-size: 34px; }
+  p  { font-size: 22px; }
+}

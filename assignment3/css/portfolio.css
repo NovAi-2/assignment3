@@ -1,0 +1,30 @@
+body { font-family: Arial, sans-serif; background: #f5f6f8; }
+.sidebar { background: #fff; border-radius: 8px; border: 1px solid #dee2e6; }
+
+/* Mobile (default): small fonts, tight spacing, some elements hidden */
+.page-title { font-size: 24px; }
+.sidebar-title { font-size: 20px; }
+.sidebar-sub { font-size: 16px; }
+.lead-text, .sidebar p { font-size: 14px; }
+main { padding-top: 0; }
+.hide-mobile { display: none; }
+
+/* Tablet: 768px+ */
+@media (min-width: 768px) {
+  .page-title { font-size: 32px; }
+  .sidebar-title { font-size: 24px; }
+  .sidebar-sub { font-size: 18px; }
+  .lead-text, .sidebar p { font-size: 16px; }
+  main { padding-top: 10px; }
+  .sidebar { padding: 24px !important; }
+  .hide-mobile { display: block; }
+}
+
+/* Desktop: 1024px+ */
+@media (min-width: 1024px) {
+  .page-title { font-size: 40px; }
+  .sidebar-title { font-size: 28px; }
+  .lead-text, .sidebar p { font-size: 18px; }
+  main { padding-top: 20px; }
+  .sidebar { position: sticky; top: 20px; }
+}
